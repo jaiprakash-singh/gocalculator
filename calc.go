@@ -10,7 +10,7 @@ func Add(nums ...float64) (res float64) {
 	return
 }
 
-func Substract(num0 float64, nums ...float64) float64 {
+func Subtract(num0 float64, nums ...float64) float64 {
 	var allNum float64
 	for _, n := range nums {
 		allNum += n
